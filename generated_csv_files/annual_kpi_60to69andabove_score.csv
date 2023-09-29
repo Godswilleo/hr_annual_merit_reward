@@ -1,0 +1,139 @@
+staff_id,age,gender,department,jobrole,total_kpi_scores
+SN00005,52,Male,"Research & Development","Healthcare Representative",62
+SN00007,47,Female,"Research & Development","Manufacturing Director",61
+SN00014,55,Male,"Research & Development","Manufacturing Director",64
+SN00023,36,Male,Sales,"Sales Executive",62
+SN00028,53,Male,Sales,Manager,60
+SN00029,32,Male,"Research & Development","Research Scientist",64
+SN00036,42,Female,"Research & Development","Manufacturing Director",62
+SN00044,29,Female,"Research & Development","Laboratory Technician",62
+SN00045,46,Female,Sales,"Sales Executive",62
+SN00053,45,Male,"Research & Development","Manufacturing Director",61
+SN00059,54,Female,Sales,"Sales Executive",63
+SN00072,30,Male,"Research & Development","Healthcare Representative",60
+SN00073,39,Female,"Research & Development",Manager,63
+SN00080,49,Female,"Research & Development","Research Director",63
+SN00091,31,Male,Sales,"Sales Executive",62
+SN00093,31,Male,"Research & Development","Research Scientist",66
+SN00095,33,Male,Sales,"Sales Executive",69
+SN00098,33,Male,"Research & Development","Laboratory Technician",66
+SN00113,45,Female,Sales,Manager,62
+SN00123,34,Male,"Research & Development","Research Scientist",63
+SN00124,30,Female,"Research & Development","Research Director",61
+SN00134,38,Female,"Research & Development","Manufacturing Director",60
+SN00138,27,Female,Sales,"Sales Representative",64
+SN00150,56,Female,"Research & Development","Research Scientist",64
+SN00158,29,Female,Sales,"Sales Executive",62
+SN00168,51,Male,Sales,"Sales Executive",64
+SN00174,46,Male,"Research & Development","Manufacturing Director",63
+SN00182,37,Male,Sales,"Sales Executive",65
+SN00183,41,Female,"Research & Development","Research Scientist",63
+SN00191,41,Male,Sales,"Sales Executive",63
+SN00203,42,Female,"Research & Development","Laboratory Technician",61
+SN00204,53,Female,"Research & Development",Manager,60
+SN00212,51,Male,"Research & Development","Research Director",65
+SN00216,31,Male,"Research & Development","Research Scientist",65
+SN00223,44,Female,"Research & Development","Research Director",62
+SN00235,30,Female,Sales,"Sales Executive",64
+SN00239,53,Male,"Research & Development","Research Director",62
+SN00241,29,Male,"Research & Development","Research Scientist",62
+SN00243,41,Female,"Research & Development","Manufacturing Director",69
+SN00266,50,Female,"Research & Development",Manager,63
+SN00273,29,Male,"Research & Development","Healthcare Representative",65
+SN00277,31,Male,"Research & Development","Manufacturing Director",65
+SN00285,42,Female,"Research & Development","Laboratory Technician",65
+SN00290,36,Female,Sales,"Sales Executive",68
+SN00291,38,Male,"Research & Development","Research Scientist",63
+SN00294,27,Female,Sales,"Sales Executive",63
+SN00305,38,Female,Sales,"Sales Executive",64
+SN00311,55,Male,Sales,"Sales Executive",61
+SN00330,29,Female,"Research & Development","Research Scientist",63
+SN00334,32,Female,Sales,"Sales Representative",62
+SN00340,40,Female,"Research & Development","Laboratory Technician",61
+SN00349,51,Male,Sales,Manager,64
+SN00366,29,Female,Sales,"Sales Representative",62
+SN00368,36,Female,Sales,"Sales Executive",62
+SN00387,42,Female,"Research & Development","Research Director",69
+SN00392,45,Male,"Research & Development","Healthcare Representative",62
+SN00395,32,Female,"Research & Development","Research Director",68
+SN00407,30,Male,"Research & Development","Laboratory Technician",63
+SN00417,29,Female,Sales,"Sales Executive",61
+SN00446,27,Male,"Research & Development","Laboratory Technician",62
+SN00466,44,Female,"Research & Development","Healthcare Representative",60
+SN00475,30,Male,"Research & Development","Laboratory Technician",61
+SN00477,33,Male,Sales,"Sales Executive",60
+SN00485,29,Female,"Research & Development","Laboratory Technician",63
+SN00494,38,Female,"Research & Development","Laboratory Technician",63
+SN00496,33,Female,"Research & Development","Research Scientist",63
+SN00497,27,Female,"Research & Development","Laboratory Technician",68
+SN00504,30,Male,"Research & Development","Laboratory Technician",69
+SN00522,38,Female,Sales,"Sales Representative",60
+SN00536,55,Male,"Research & Development","Research Director",62
+SN00573,46,Female,"Research & Development","Manufacturing Director",62
+SN00593,22,Male,"Research & Development","Research Scientist",60
+SN00604,48,Male,"Research & Development",Manager,60
+SN00605,40,Male,"Research & Development","Research Director",60
+SN00616,34,Female,"Research & Development","Research Director",64
+SN00617,42,Male,"Research & Development","Healthcare Representative",68
+SN00621,49,Male,"Research & Development","Research Director",62
+SN00627,46,Male,"Research & Development","Healthcare Representative",63
+SN00629,45,Male,"Research & Development","Laboratory Technician",64
+SN00646,34,Female,"Research & Development",Manager,65
+SN00649,41,Male,"Research & Development","Laboratory Technician",62
+SN00653,31,Male,"Research & Development","Research Scientist",60
+SN00655,33,Male,"Human Resources","Human Resources",64
+SN00656,32,Male,Sales,"Sales Executive",61
+SN00673,40,Female,"Research & Development","Research Director",60
+SN00675,39,Male,"Research & Development","Healthcare Representative",60
+SN00684,34,Male,"Research & Development","Research Scientist",63
+SN00687,50,Male,"Research & Development",Manager,60
+SN00699,27,Male,"Research & Development","Manufacturing Director",60
+SN00702,31,Male,"Research & Development","Research Director",60
+SN00704,38,Female,"Research & Development","Healthcare Representative",61
+SN00708,19,Male,"Research & Development","Research Scientist",63
+SN00718,52,Male,"Research & Development",Manager,63
+SN00734,32,Male,"Research & Development","Research Scientist",61
+SN00736,29,Male,Sales,"Sales Representative",66
+SN00741,40,Male,"Research & Development","Research Scientist",62
+SN00743,55,Male,"Research & Development","Laboratory Technician",64
+SN00759,43,Male,"Human Resources","Human Resources",63
+SN00765,56,Male,"Human Resources",Manager,63
+SN00774,46,Male,Sales,Manager,63
+SN00777,24,Male,"Research & Development","Laboratory Technician",65
+SN00789,43,Male,Sales,"Sales Executive",62
+SN00800,32,Male,"Research & Development","Laboratory Technician",60
+SN00808,42,Female,"Research & Development","Healthcare Representative",63
+SN00812,30,Female,Sales,"Sales Executive",67
+SN00814,42,Male,Sales,"Sales Executive",61
+SN00818,49,Female,"Research & Development","Laboratory Technician",60
+SN00821,30,Female,"Research & Development","Research Scientist",62
+SN00824,42,Female,"Research & Development","Manufacturing Director",64
+SN00825,33,Male,"Research & Development","Research Scientist",63
+SN00826,50,Male,"Research & Development","Research Director",63
+SN00841,54,Female,Sales,"Sales Executive",60
+SN00846,31,Female,"Research & Development","Laboratory Technician",61
+SN00850,42,Male,"Research & Development","Laboratory Technician",62
+SN00852,38,Female,"Research & Development","Laboratory Technician",63
+SN00861,18,Female,"Research & Development","Laboratory Technician",61
+SN00864,27,Female,"Research & Development","Research Scientist",62
+SN00868,37,Female,Sales,"Sales Executive",66
+SN00871,53,Male,"Research & Development","Laboratory Technician",61
+SN00883,31,Male,Sales,"Sales Executive",62
+SN00888,50,Male,"Research & Development","Laboratory Technician",61
+SN00890,44,Female,"Research & Development","Research Scientist",61
+SN00893,54,Male,"Research & Development","Research Director",62
+SN00900,41,Male,"Research & Development","Research Scientist",62
+SN00908,52,Male,"Research & Development","Manufacturing Director",64
+SN00916,44,Female,Sales,"Sales Executive",63
+SN00933,36,Male,"Research & Development","Laboratory Technician",62
+SN00934,30,Male,"Human Resources","Human Resources",61
+SN00937,55,Male,"Research & Development","Research Director",60
+SN00950,21,Female,"Research & Development","Research Scientist",69
+SN00951,36,Male,"Research & Development","Laboratory Technician",65
+SN00965,43,Male,Sales,"Sales Executive",62
+SN00977,43,Female,"Research & Development","Laboratory Technician",61
+SN00979,40,Female,Sales,"Sales Executive",61
+SN00992,51,Female,"Research & Development","Healthcare Representative",69
+SN01004,54,Female,"Research & Development",Manager,69
+SN01006,55,Female,"Research & Development",Manager,62
+SN01018,51,Male,"Research & Development","Laboratory Technician",64
