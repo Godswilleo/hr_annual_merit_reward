@@ -5,9 +5,9 @@ Today is January 2rd 2023. The management of the company is planning to reward s
 The scope of this project is of two dimension. One covers a reward being set up to appreciate staff members for the past year while the other part explores and seeks to establish insights pertaining to employee attrition in the company.
 
 ### Data Set
-THe data set provided is csv file. This is the csv named employee_attrition_train.csv
+THe data set provided is csv file. This is the csv named **employee_attrition_train.csv**
 
-Kpi_scores.csv is then created from the provided csv file using the following sql query.
+**Kpi_scores.csv** is then created from the provided csv file using the following sql query.
 
 ```-- Selects the database to use
 USE hr_attrition;
