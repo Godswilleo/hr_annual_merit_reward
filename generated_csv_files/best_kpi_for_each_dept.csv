@@ -1,0 +1,6 @@
+staff_id,department,gender,age,total_kpi_scores
+SN00200,"Research & Development",Male,33,72
+SN00256,"Research & Development",Female,24,72
+SN00335,Sales,Male,38,73
+SN00563,"Research & Development",Male,59,72
+SN00655,"Human Resources",Male,33,64

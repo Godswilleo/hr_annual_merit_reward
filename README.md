@@ -7,7 +7,7 @@ The scope of this project is of two dimension. One covers a reward being set up 
 ### Data Set
 THe data set provided is csv file. This is the csv named **employee_attrition_train.csv**
 
-**Kpi_scores.csv** is then created from the provided csv file using the query in create_the_kpi_score_table.sql
+Run the query **create_the_kpi_score_table.sql** to generate the **Kpi_scores.csv** file in mysql workbench
 
 ## Section 1: REWARD
 The reward is basically incentivizing staff based on staff KPI performance for the past year. 
