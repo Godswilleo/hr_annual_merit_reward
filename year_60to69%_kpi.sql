@@ -15,7 +15,7 @@ fields are being retrieved */
 FROM 
   employee_attrition e 
   JOIN kpi_scores k ON e.staff_id = k.staff_id 
-  
+ 
 /* uses a subquery to specify the condition of retrieval such that only the staff_id of staff whose 
 total_kpi_scores are from 60 to 69 are retrieved */
 WHERE 

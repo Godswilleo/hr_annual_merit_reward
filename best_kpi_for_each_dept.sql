@@ -9,7 +9,7 @@ SELECT
   e.age, 
   k.total_kpi_scores 
   
-/* specifies creates a join between employee_attrition and kpi_scores tables
+/* creates a join between employee_attrition and kpi_scores tables
 and specifies the join as the source of the fields to be retrieved */
 FROM 
   employee_attrition e 
