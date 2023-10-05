@@ -1,4 +1,8 @@
+-- specifies database to use
 USE hr_attrition;
+
+/* CTE to retrieve current and new total remunerations with both formated
+to add comma seperators as well as calculate the their difference */
 WITH cte_total_remunerations AS(
   SELECT 
     SUM(currentmonthlysalary) AS current_remunerations, 
@@ -13,6 +17,9 @@ WITH cte_total_remunerations AS(
   FROM 
     december_salary_schedule
 ) 
+
+/* Retrieve the current, new remunerations and difference from the CTE
+and then calculate the percentage difference */
 SELECT 
   FORMAT(
     current_remunerations, 'N0', 'en-us'
