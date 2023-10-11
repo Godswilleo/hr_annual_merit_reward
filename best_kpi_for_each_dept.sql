@@ -3,11 +3,16 @@ USE hr_attrition;
 
 -- Selects the fields to be retrieved
 SELECT 
-  e.staff_id, 
-  e.department, 
-  e.gender, 
+e.staff_id, 
   e.age, 
-  k.total_kpi_scores 
+  e.gender, 
+  e.department, 
+  e.jobrole,
+  k.Quarter1_KPI_Score,
+  k.Quarter2_KPI_Score,
+  k.Quarter3_KPI_Score,
+  k.Quarter4_KPI_Score,
+  k.total_kpi_scores  
   
 /* creates a join between employee_attrition and kpi_scores tables
 and specifies the join as the source of the fields to be retrieved */

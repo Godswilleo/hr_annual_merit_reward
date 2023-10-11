@@ -1,0 +1,16 @@
+staff_id,age,gender,department,jobrole,total_kpi_scores
+SN00020,30,Female,"Research & Development","Laboratory Technician",71
+SN00076,42,Female,Sales,"Sales Executive",70
+SN00127,37,Male,Sales,"Sales Executive",70
+SN00166,39,Male,"Research & Development","Manufacturing Director",70
+SN00175,42,Male,"Research & Development","Laboratory Technician",70
+SN00200,33,Male,"Research & Development","Healthcare Representative",72
+SN00256,24,Female,"Research & Development","Manufacturing Director",72
+SN00319,40,Male,"Research & Development","Healthcare Representative",70
+SN00335,38,Male,Sales,"Sales Executive",73
+SN00426,32,Female,"Research & Development","Healthcare Representative",70
+SN00563,59,Male,"Research & Development","Manufacturing Director",72
+SN00745,59,Male,"Research & Development","Research Scientist",71
+SN00756,36,Male,"Research & Development","Laboratory Technician",71
+SN00764,22,Male,"Research & Development","Research Scientist",70
+SN00785,23,Male,"Research & Development","Laboratory Technician",70

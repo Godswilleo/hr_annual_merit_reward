@@ -8,7 +8,13 @@ SELECT
   e.age, 
   e.gender, 
   e.department, 
-  e.jobrole, 
+  e.jobrole,
+  e.yearsatcompany,
+  e.yearsincurrentrole,
+  k.Quarter1_KPI_Score,
+  k.Quarter2_KPI_Score,
+  k.Quarter3_KPI_Score,
+  k.Quarter4_KPI_Score,
   k.total_kpi_scores 
   
   -- Specifies the join between the employee_attrition and kpi_scores tables using staff_id field
