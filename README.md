@@ -11,7 +11,7 @@ THe data set provided is a csv file. This is the csv named **employee_attrition_
 * Install Mysql WorkBench desktop app and set it up correctly
 * In Mysql WorkBench, Create a database and import **employee_attrition_train.csv** as a table. And run the query **create_the_kpi_score_table.sql** and then save the table created as **kpi_scores.csv**
 
-## PURPOSE STATEMENT/BUSINESS NEED
+## Purpose Statement/Business Need
 The reward is basically incentivizing staff based on staff KPI performance for the past year. All monetory rewards are expected to commence from January salary. Salaries are normally paid on the 25th day of each month.
 
 In computing the total_kpi_scores for the year, out of total possible score of 100, the weight of each quarter are as follows
@@ -43,11 +43,23 @@ This is to be delivered to HR to help collate deserving staff the the annual awa
 
 ## Technologies used and skills demonstrated
 * Python    - Cleaning and Transformation using Pandas, Matplotlib, Charts, Functions, loops
-* SQL       - Querying the data using Subquery, CTE, Calculated Fields, Table creation from CTE, Multi-Layer subquries, CASE statements
+* SQL       - Explorational data querying using Subquery, CTE, Calculated Fields, Table creation from CTE, Multi-Layer subquries, CASE statements
 * Power BI  - Create dashboard
 
-## DATA CLEANING AND TRANSFORMATION
+## Data Cleaning and Transformation
 The cleaning and transformation processes were done using python on a jupyter notebook
+(to be updated)
+
+## Exploration Data Analysis
+The exporation was mainly done using SQL in other to generate the data requested for. Below are the various 
+queries written for the different purposes and the CSV file the tables are saved as;
+
+|-----------------------------------------------------|---------------------------------|---------------------------|
+|Purpose                                              | Query Written                   | CSV file                  |
+|-----------------------------------------------------|---------------------------------|---------------------------|
+| Get the staff who scored annual KPI of 70 and above | year_70%upward_kpi.sql          | year_70andabove.csv       |
+
+This is achieved using the query written in **year_70%upward_kpi.sql** after the which the resultant table was saved as ****
 
 
 
