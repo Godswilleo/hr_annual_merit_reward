@@ -66,7 +66,7 @@ queries written for the different purposes and the CSV file the tables are saved
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 | 2.    | Get the staff who got 60 to 69 annual KPI score     | year_60to69%_kpi.sql             | year_60to69.csv           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 3.    | Get staff who scored below 60% annual KPI score     |                                  |                           |
+| 3.    | Get staff who scored below 60% annual KPI score     | -                                |                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 | 4.    | Get the staff who got the highest total annual KPI  | year_highest_kpi.sql             | year_highest_kpi.csv      |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
@@ -90,7 +90,7 @@ queries written for the different purposes and the CSV file the tables are saved
 | 11.   | Get the difference in total remunerations and also  | best_kpi_for_each_dept.sql       | dept_bests.csv            |
 |       | percentage difference in total remunerations after  |                                  |                           |
 |       | implementing the rewards                            |                                  |                           |
-|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+
 
 
 
