@@ -84,7 +84,7 @@ queries written for the different purposes and the CSV file the tables are saved
 | 9.    | Get the staff who got the highest KPI scores in     | best_kpi_for_each_dept.sql       | dept_bests.csv            |
 |       | each department                                     |                                  |                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 10.   | Generate December salary payment schedule while     | december_salary_schedule.sql     | december_salary_schedule.csv |
+| 10.   | Generate December salary payment schedule while     | december_salary_schedule.sql     | dec_salary_schedule.csv   |
 |       | factoring in the reward for each category of staff  |                                  |                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 | 11.   | Get the difference in total remunerations and also  | best_kpi_for_each_dept.sql       | dept_bests.csv            |
