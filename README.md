@@ -72,8 +72,7 @@ queries written for the different purposes and the CSV file the tables are saved
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 | 5.    | Get staff who scored 50% and above KPI in quarter2  | quarter2_50andabove_kpi.sql      | quarter2_50andabove.csv   |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 6.    | Get the number of people from each department who   |departmental_spread_70andabove.sql|                           |
-|       | scored 70 and above annual KPI                      |                                  |                           |
+| 6.    | Get the number of people from each department who  scored 70 and above annual KPI      |departmental_spread_70andabove.sql|                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 | 7.    | Get the number of people from each department who   | departmental_spread_60to69.sql   |                           |
 |       | scored 60 to 69 annual KPI                          |                                  |                           |
