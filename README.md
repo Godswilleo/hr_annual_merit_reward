@@ -34,6 +34,7 @@ In light of this management decided to set up the following;
 This is to be delivered to HR to help collate deserving staff the the annual awards
 
 ### Generating the data for the rewards as required
+Queries were written in to;
 1. Get the staff who scored annual KPI of 70% and above
 2. Get the staff who got 60 to 69% annual KPI score
 3. Get staff who scored below 60% annual KPI
@@ -44,7 +45,7 @@ This is to be delivered to HR to help collate deserving staff the the annual awa
 8. Get the number of people from each department who scored 50 and above in quarter 2
 9. Get the staff who had the highest KPI for each department
 10. Generate the January salary schedule while factoring in the rewards for each category of staff
-11. Difference in total remunerations after implementing the rewards
+11. Get the difference in total remunerations after implementing the rewards
 
 ## Technologies used and skills demonstrated
 * Python    - Cleaning and Transformation using Pandas, Matplotlib, Charts, Functions, loops
@@ -105,6 +106,13 @@ queries written for the different purposes and the CSV file the tables are saved
 </tr>
 
 <tr>
+<td>5.</td>
+<td>Get staff who scored below 60% annual KPI </td>
+<td>year_below60_kpi.sql</td>
+<td>year_below60.csv  </td>
+</tr>
+
+<tr>
 <td>6.</td>
 <td>Get the number of people from each department who  scored 70 and above annual KPI  </td>
 <td>departmental_spread_70andabove.sql  </td>
@@ -126,6 +134,13 @@ queries written for the different purposes and the CSV file the tables are saved
 </tr>
 
 <tr>
+<td>8.</td>
+<td>Get the number of people from each department who scored below 60 in annual KPI </td>
+<td>departmental_spread_below60.sql  </td>
+<td>dept_year_below60.csv</td>
+</tr>
+
+<tr>
 <td>9.</td>
 <td>Get the staff who got the highest KPI scores in each department </td>
 <td>best_kpi_for_each_dept.sql  </td>
@@ -142,8 +157,8 @@ queries written for the different purposes and the CSV file the tables are saved
 <tr>
 <td>11.</td>
 <td>Get the difference in total remunerations and also percentage difference in total remunerations after implementing the rewards  </td>
-<td>best_kpi_for_each_dept.sql    </td>
-<td>dept_bests.csv  </td>
+<td>rem_diff_after_increment.sql   </td>
+<td>rem_diff_after_increment.csv </td>
 </tr>
 
 </table>
