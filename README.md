@@ -60,21 +60,108 @@ The exporation was mainly done using SQL in other to generate the data requested
 queries written for the different purposes and the CSV file the tables are saved as;
 
 
-|S/N    |Purpose                                              | Query Written                    | CSV file                  |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 1.    | Get the staff who scored annual KPI of 70 and above | year_70%upward_kpi.sql           | year_70andabove.csv       |
+| 5.    |  |     |   |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 2.    | Get the staff who got 60 to 69 annual KPI score     | year_60to69%_kpi.sql             | year_60to69.csv           |
+| 6.    |       ||
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 7.    |      |    |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 8.    |   |  | 
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 9.    |        |       |     |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 10.   |     |     | dec_salary_schedule.csv   |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 11.   | Get the difference in total remunerations and also percentage difference in total remunerations after implementing the rewards   | best_kpi_for_each_dept.sql       | dept_bests.csv            |
 
 
 <table>
+
 <tr>
 <td>S/N</td>
 <td>Purpose</td>
 <td>Query Written</td>
 <td>CSV file</td>
 </tr>
+
+<tr>
+<td>1.</td>
+<td>Get the staff who scored annual KPI of 70 and above </td>
+<td>year_70%upward_kpi.sql </td>
+<td>year_70andabove.csv </td>
+</tr>
+
+<tr>
+<td>3.</td>
+<td>Get staff who scored below 60% annual KPI score   </td>
+<td> -  </td>
+<td> </td>
+</tr>
+
+<tr>
+<td>4.</td>
+<td>Get the staff who got the highest total annual KPI  </td>
+<td>year_highest_kpi.sql   </td>
+<td>year_highest_kpi.csv   </td>
+</tr>
+
+<tr>
+<td>4.</td>
+<td>Get the staff who got the highest total annual KPI  </td>
+<td>year_highest_kpi.sql   </td>
+<td>year_highest_kpi.csv   </td>
+</tr>
+
+<tr>
+<td>5.</td>
+<td>Get staff who scored 50% and above KPI in quarter2  </td>
+<td>quarter2_50andabove_kpi.sql     </td>
+<td>quarter2_50andabove.csv   </td>
+</tr>
+
+<tr>
+<td>6.</td>
+<td>Get the number of people from each department who  scored 70 and above annual KPI  </td>
+<td>departmental_spread_70andabove.sql  </td>
+<td>  </td>
+</tr>
+
+<tr>
+<td>7.</td>
+<td>Get the number of people from each department who scored 60 to 69 annual KPI  </td>
+<td>departmental_spread_60to69.sql  </td>
+<td>    </td>
+</tr>
+
+<tr>
+<td>8.</td>
+<td>Get the number of people from each department who  scored 50 and above quarter 2 KPI  </td>
+<td>dept_spread_q2_50andabove.sql  </td>
+<td>  </td>
+</tr>
+
+<tr>
+<td>9.</td>
+<td>Get the staff who got the highest KPI scores in each department </td>
+<td>best_kpi_for_each_dept.sql  </td>
+<td>dept_bests.csv </td>
+</tr>
+
+<tr>
+<td>10.</td>
+<td>Generate December salary payment schedule while factoring in the reward for each category of staff  </td>
+<td>december_salary_schedule.sql   </td>
+<td>dec_salary_schedule.csv </td>
+</tr>
+
+<tr>
+<td>11.</td>
+<td>Get the difference in total remunerations and also percentage difference in total remunerations after implementing the rewards  </td>
+<td>best_kpi_for_each_dept.sql    </td>
+<td>dept_bests.csv  </td>
+</tr>
+
 </table>
 
 
