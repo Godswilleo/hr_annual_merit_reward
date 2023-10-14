@@ -74,21 +74,15 @@ queries written for the different purposes and the CSV file the tables are saved
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 | 6.    | Get the number of people from each department who  scored 70 and above annual KPI      |departmental_spread_70andabove.sql|                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 7.    | Get the number of people from each department who   | departmental_spread_60to69.sql   |                           |
-|       | scored 60 to 69 annual KPI                          |                                  |                           |
+| 7.    | Get the number of people from each department who scored 60 to 69 annual KPI     | departmental_spread_60to69.sql   |                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 8.    | Get the number of people from each department who   | dept_spread_q2_50andabove.sql    |                           |
-|       | scored 50 and above quarter 2 KPI                   |                                  |                           |
+| 8.    | Get the number of people from each department who  scored 50 and above quarter 2 KPI   | dept_spread_q2_50andabove.sql    |                           |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 9.    | Get the staff who got the highest KPI scores in     | best_kpi_for_each_dept.sql       | dept_bests.csv            |
-|       | each department                                     |                                  |                           |
+| 9.    | Get the staff who got the highest KPI scores in each department       | best_kpi_for_each_dept.sql       | dept_bests.csv            |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 10.   | Generate December salary payment schedule while     | december_salary_schedule.sql     | dec_salary_schedule.csv   |
-|       | factoring in the reward for each category of staff  |                                  |                           |
+| 10.   | Generate December salary payment schedule while factoring in the reward for each category of staff     | december_salary_schedule.sql     | dec_salary_schedule.csv   |
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
-| 11.   | Get the difference in total remunerations and also  | best_kpi_for_each_dept.sql       | dept_bests.csv            |
-|       | percentage difference in total remunerations after  |                                  |                           |
-|       | implementing the rewards                            |                                  |                           |
+| 11.   | Get the difference in total remunerations and also percentage difference in total remunerations after implementing the rewards   | best_kpi_for_each_dept.sql       | dept_bests.csv            |
 
 
 
