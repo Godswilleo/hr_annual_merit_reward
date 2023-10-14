@@ -80,8 +80,8 @@ queries written for the different purposes and the CSV file the tables are saved
 <tr>
 <td>3.</td>
 <td>Get staff who scored below 60% annual KPI score   </td>
-<td> -  </td>
-<td> </td>
+<td>year_below60_kpi.sql</td>
+<td> year_below60.csv</td>
 </tr>
 
 <tr>
@@ -106,36 +106,29 @@ queries written for the different purposes and the CSV file the tables are saved
 </tr>
 
 <tr>
-<td>5.</td>
-<td>Get staff who scored below 60% annual KPI </td>
-<td>year_below60_kpi.sql</td>
-<td>year_below60.csv  </td>
-</tr>
-
-<tr>
 <td>6.</td>
 <td>Get the number of people from each department who  scored 70 and above annual KPI  </td>
 <td>departmental_spread_70andabove.sql  </td>
-<td>  </td>
+<td>year_70andabove.csv  </td>
 </tr>
 
 <tr>
 <td>7.</td>
 <td>Get the number of people from each department who scored 60 to 69 annual KPI  </td>
 <td>departmental_spread_60to69.sql  </td>
-<td>    </td>
+<td> dept_spread_60to69.csv </td>
 </tr>
 
 <tr>
 <td>8.</td>
 <td>Get the number of people from each department who  scored 50 and above quarter 2 KPI  </td>
 <td>dept_spread_q2_50andabove.sql  </td>
-<td>  </td>
+<td> dept_spread_Q2_50above.csv </td>
 </tr>
 
 <tr>
 <td>8.</td>
-<td>Get the number of people from each department who scored below 60 in annual KPI </td>
+<td>Get the number of people from each department who scored below 60 </td>
 <td>departmental_spread_below60.sql  </td>
 <td>dept_year_below60.csv</td>
 </tr>

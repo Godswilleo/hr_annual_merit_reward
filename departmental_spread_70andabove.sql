@@ -1,6 +1,7 @@
 -- Specifies the database to be used
 USE hr_attrition;
 
+WITH cte_dept_spread AS(
 -- selects the fields to be retrieved
 SELECT 
   e.staff_id, 
@@ -26,3 +27,5 @@ WHERE
 	WHERE
 	total_kpi_scores >= 70
   )
+  )
+  SELECT department, count(total_kpi_scores >= 70) AS 'number of staff' FROM cte_dept_spread GROUP BY department
