@@ -68,7 +68,14 @@ queries written for the different purposes and the CSV file the tables are saved
 |-------|-----------------------------------------------------|----------------------------------|---------------------------|
 
 
-
+<table>
+<tr>
+<td>S/N</td>
+<td>Purpose</td>
+<td>Query Written</td>
+<td>CSV file</td>
+</tr>
+</table>
 
 
 
