@@ -39,7 +39,12 @@ This is to be delivered to HR to help collate deserving staff the the annual awa
 3. Get staff who scored below 60% annual KPI
 4. Get the staff who got the highest total annual KPI 
 5. Get staff who scored 50% and above KPI in quarter2
-6. Generate the January salary schedule while factoring in the rewards for each category of staff
+6. Get the number of people from each department who scored 70 and above annual KPI
+7. Get the number of people from each department who scored 60 to 69 annual KPI
+8. Get the number of people from each department who scored 50 and above in quarter 2
+9. Get the staff who had the highest KPI for each department
+10. Generate the January salary schedule while factoring in the rewards for each category of staff
+11. Difference in total remunerations after implementing the rewards
 
 ## Technologies used and skills demonstrated
 * Python    - Cleaning and Transformation using Pandas, Matplotlib, Charts, Functions, loops
@@ -54,12 +59,40 @@ The cleaning and transformation processes were done using python on a jupyter no
 The exporation was mainly done using SQL in other to generate the data requested for. Below are the various 
 queries written for the different purposes and the CSV file the tables are saved as;
 
-|-----------------------------------------------------|---------------------------------|---------------------------|
-|Purpose                                              | Query Written                   | CSV file                  |
-|-----------------------------------------------------|---------------------------------|---------------------------|
-| Get the staff who scored annual KPI of 70 and above | year_70%upward_kpi.sql          | year_70andabove.csv       |
 
-This is achieved using the query written in **year_70%upward_kpi.sql** after the which the resultant table was saved as ****
+|S/N    |Purpose                                              | Query Written                    | CSV file                  |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 1.    | Get the staff who scored annual KPI of 70 and above | year_70%upward_kpi.sql           | year_70andabove.csv       |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 2.    | Get the staff who got 60 to 69 annual KPI score     | year_60to69%_kpi.sql             | year_60to69.csv           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 3.    | Get staff who scored below 60% annual KPI score     |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 4.    | Get the staff who got the highest total annual KPI  | year_highest_kpi.sql             | year_highest_kpi.csv      |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 5.    | Get staff who scored 50% and above KPI in quarter2  | quarter2_50andabove_kpi.sql      | quarter2_50andabove.csv   |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 6.    | Get the number of people from each department who   |departmental_spread_70andabove.sql|                           |
+|       | scored 70 and above annual KPI                      |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 7.    | Get the number of people from each department who   | departmental_spread_60to69.sql   |                           |
+|       | scored 60 to 69 annual KPI                          |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 8.    | Get the number of people from each department who   | dept_spread_q2_50andabove.sql    |                           |
+|       | scored 50 and above quarter 2 KPI                   |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 9.    | Get the staff who got the highest KPI scores in     | best_kpi_for_each_dept.sql       | dept_bests.csv            |
+|       | each department                                     |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 10.   | Generate December salary payment schedule while     | december_salary_schedule.sql     | december_salary_schedule.csv |
+|       | factoring in the reward for each category of staff  |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+| 11.   | Get the difference in total remunerations and also  | best_kpi_for_each_dept.sql       | dept_bests.csv            |
+|       | percentage difference in total remunerations after  |                                  |                           |
+|       | implementing the rewards                            |                                  |                           |
+|-------|-----------------------------------------------------|----------------------------------|---------------------------|
+
+
 
 
 
