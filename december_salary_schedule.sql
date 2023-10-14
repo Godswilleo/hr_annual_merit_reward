@@ -8,7 +8,7 @@ DROP
   
 /* Creates a new Table using the fields and records retrieved from a CTE as 
 the field and records of the new table */
-CREATE TABLE december_salary_schedule AS(
+
   WITH CTE_december_salary AS(
     SELECT 
       e.staff_id, 
@@ -64,4 +64,4 @@ CREATE TABLE december_salary_schedule AS(
     ) AS decembersalary 
   FROM 
     CTE_december_salary
-)
+

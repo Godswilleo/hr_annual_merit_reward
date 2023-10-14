@@ -78,14 +78,14 @@ queries written for the different purposes and the CSV file the tables are saved
 </tr>
 
 <tr>
-<td>3.</td>
+<td>2</td>
 <td>Get staff who scored below 60% annual KPI score   </td>
 <td>year_below60_kpi.sql</td>
 <td> year_below60.csv</td>
 </tr>
 
 <tr>
-<td>4.</td>
+<td>3.</td>
 <td>Get the staff who got the highest total annual KPI  </td>
 <td>year_highest_kpi.sql   </td>
 <td>year_highest_kpi.csv   </td>
@@ -127,28 +127,28 @@ queries written for the different purposes and the CSV file the tables are saved
 </tr>
 
 <tr>
-<td>8.</td>
+<td>9.</td>
 <td>Get the number of people from each department who scored below 60 </td>
 <td>departmental_spread_below60.sql  </td>
 <td>dept_year_below60.csv</td>
 </tr>
 
 <tr>
-<td>9.</td>
+<td>10.</td>
 <td>Get the staff who got the highest KPI scores in each department </td>
 <td>best_kpi_for_each_dept.sql  </td>
 <td>dept_bests.csv </td>
 </tr>
 
 <tr>
-<td>10.</td>
+<td>11.</td>
 <td>Generate December salary payment schedule while factoring in the reward for each category of staff  </td>
 <td>december_salary_schedule.sql   </td>
 <td>dec_salary_schedule.csv </td>
 </tr>
 
 <tr>
-<td>11.</td>
+<td>12.</td>
 <td>Get the difference in total remunerations and also percentage difference in total remunerations after implementing the rewards  </td>
 <td>rem_diff_after_increment.sql   </td>
 <td>rem_diff_after_increment.csv </td>
