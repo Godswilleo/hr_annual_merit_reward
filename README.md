@@ -156,6 +156,13 @@ queries written for the different purposes and the CSV file the tables are saved
 
 </table>
 
+## Conclusion
+In summary, only 9% of employees got 70 and above annual KPI. Also only 18% were able to score 60 to 69%. over 72% of employees got below 60% annual KPI score. According to company standards this is failure. The complete report of the analysis carried out is contained in the **annual_merit_report.pptx** file.
+
+## Recommendation
+A situation were
+over 72% of staff are not able to meet to their annual KPI obligations management will need to map out programmes
+to improve staff productivity. This should involve reviewing and improving on the training programmes
 
 
 
