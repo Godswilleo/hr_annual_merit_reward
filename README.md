@@ -1,4 +1,4 @@
-![](/img/banner.JPG)<br />
+![](/img/banner.jpg)<br />
 
 # HR EMPLOYEE ANNUAL MERIT REWARD
 The project is mearnt to explore employee performance records and then reward high flying employees.
