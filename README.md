@@ -4,7 +4,7 @@
 The project is mearnt to explore employee performance records and then reward high flying employees.
 
 ### Data Set
-THe data set provided is a csv file. This is the csv named **employee_attrition_train.csv**
+THe data set provided is a csv file. This is the csv named **employee_performance_full.csv**. This was cleaned,transformed and then resaved as **employee_attrition_train.csv**
 
 ### Set Up ###
 * Install the Mysql Server
@@ -53,8 +53,9 @@ Queries were written in to;
 * Power BI  - Create dashboard
 
 ## Data Cleaning and Transformation
-The cleaning and transformation processes were done using python on a jupyter notebook
-(to be updated)
+The cleaning and transformation processes were done using python on a jupyter notebook. The **clean_and_transform.ipynb** file is the jupyter notebook file used in the cleaning and transformation operation.
+
+![](img/clean_operation.JPG)
 
 ## Exploration Data Analysis
 The exporation was mainly done using SQL in other to generate the data requested for. Below are the various 
