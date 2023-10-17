@@ -55,7 +55,7 @@ Queries were written in to;
 ## Data Cleaning and Transformation
 The cleaning and transformation processes were done using python on a jupyter notebook. The **clean_and_transform.ipynb** file is the jupyter notebook file used in the cleaning and transformation operation.
 
-![](img/clean_operation.JPG)
+![](/img/clean_operation.JPG)
 
 ## Exploration Data Analysis
 The exporation was mainly done using SQL in other to generate the data requested for. Below are the various 
