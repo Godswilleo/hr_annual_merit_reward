@@ -50,7 +50,7 @@ Queries were written in to;
 ## Technologies used and skills demonstrated
 * Python    - Cleaning and Transformation using Pandas, Matplotlib, Charts, Functions, loops
 * SQL       - Explorational data querying using Subquery, CTE, Calculated Fields, Table creation from CTE, Multi-Layer subquries, CASE statements
-* Power BI  - Create dashboard
+
 
 ## Data Cleaning and Transformation
 The cleaning and transformation processes were done using python on a jupyter notebook. The **clean_and_transform.ipynb** file is the jupyter notebook file used in the cleaning and transformation operation.
@@ -156,6 +156,8 @@ queries written for the different purposes and the CSV file the tables are saved
 </tr>
 
 </table>
+
+Respective SQL views were created for each of the queries above
 
 ## Conclusion
 In summary, only 9% of employees got 70 and above annual KPI. Also only 18% were able to score 60 to 69%. over 72% of employees got below 60% annual KPI score. According to company standards this is failure. The complete report of the analysis carried out is contained in the **annual_merit_report.pptx** file.

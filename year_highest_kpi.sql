@@ -1,7 +1,10 @@
 -- Selects the database being used
 USE hr_attrition;
 
+DROP VIEW IF EXISTS v_year_highest_kpi;
 
+CREATE VIEW v_year_highest_kpi
+AS
 -- Selects the required fields from each table
 SELECT 
   e.staff_id, 

@@ -1,6 +1,10 @@
 -- Specifies the database to be used
 USE hr_attrition;
 
+DROP VIEW IF EXISTS v_deparmental_spread_below60;
+
+CREATE VIEW v_deparmental_spread_below60
+AS
 WITH cte_dept_spread AS(
 -- selects the fields to be retrieved
 SELECT 

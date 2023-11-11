@@ -1,6 +1,10 @@
 -- Selects the database to be used
 USE hr_attrition;
 
+DROP VIEW IF EXISTS v_quarter2_50andabove_kpi;
+
+CREATE VIEW v_quarter2_50andabove_kpi
+AS
 -- Specifies fields to be retrieved
 SELECT 
   e.staff_id, 

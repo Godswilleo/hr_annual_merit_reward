@@ -1,6 +1,10 @@
 -- Select the database to be used
 USE hr_attrition;
 
+DROP VIEW IF EXISTS v_best_kpi_for_each_dept;
+
+CREATE VIEW v_best_kpi_for_each_dept
+AS
 -- Selects the fields to be retrieved
 SELECT 
 e.staff_id, 
@@ -36,3 +40,4 @@ WHERE
     GROUP BY 
       e.department
   )
+  

@@ -4,8 +4,10 @@ USE hr_attrition;
 /* Deletes the table if a table already exists which have same name as
 specified for the new table to be created */
 DROP 
-  TABLE IF EXISTS december_salary_schedule;
-  
+  VIEW IF EXISTS v_december_salary_schedule;
+
+CREATE VIEW v_december_salary_schedule
+AS
 /* Creates a new Table using the fields and records retrieved from a CTE as 
 the field and records of the new table */
 

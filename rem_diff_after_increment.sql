@@ -1,6 +1,10 @@
 -- specifies database to use
 USE hr_attrition;
 
+DROP VIEW IF EXISTS v_rem_diff_after_increment;
+
+CREATE VIEW v_rem_diff_after_increment
+AS
 /* CTE to retrieve current and new total remunerations with both formated
 to add comma seperators as well as calculate the their difference */
 WITH cte_total_remunerations AS(
@@ -11,11 +15,10 @@ WITH cte_total_remunerations AS(
       SUM(
         newmonthlysalary - currentmonthlysalary
       ), 
-      'N0', 
-      'en-us'
+      'N0', 'en-us'
     ) AS difference 
   FROM 
-    december_salary_schedule
+    v_december_salary_schedule
 ) 
 
 /* Retrieve the current, new remunerations and difference from the CTE

@@ -1,6 +1,10 @@
 -- Specifies the database to be used
 USE hr_attrition;
 
+DROP VIEW IF EXISTS v_year_60to69;
+
+CREATE VIEW v_year_60to69
+AS
 -- selects the fields to be retrieved
 SELECT 
   e.staff_id, 
